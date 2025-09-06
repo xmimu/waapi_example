@@ -1,0 +1,14 @@
+[project]
+name = "waapi-example"
+version = "0.1.0"
+description = "WAAPI 视频教程、案例"
+requires-python = ">=3.12"
+dependencies = [
+    "freesimplegui>=5.2.0.post1",
+    "waapi-client>=0.8",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.15.0",
+]
